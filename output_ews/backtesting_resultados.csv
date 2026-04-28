@@ -1,0 +1,4 @@
+Episodio,Inicio,Fin,Meses_Crisis,Detectado,Alertas_Pre,Primera_Alerta,Lead_Time_Meses,Dentro_Horizonte,Score_Max_Prev
+Crisis financiera global 2008,2008-09,2009-06,9,False,0,—,0,False,
+Volatilidad cambiaria 2015,2015-05,2016-02,9,True,2,2015-02,2,False,0.5456
+COVID-19 2020,2020-03,2021-06,15,False,0,—,0,False,0.5316

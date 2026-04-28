@@ -1,0 +1,7 @@
+Serie,ADF_stat,ADF_p,ADF_lags,KPSS_stat,KPSS_p,Veredicto
+RIN_Millones_USD,-1.1012,0.7146,15,2.1252,0.01,No estacionaria (I≥1)
+Tipo_Cambio_PEN,-1.2906,0.6335,3,1.4569,0.01,No estacionaria (I≥1)
+IPC_Indice,-3.2549,0.017,13,0.186,0.1,Estacionaria
+PBI_Mensual_Indice,-1.3594,0.6016,14,2.3115,0.01,No estacionaria (I≥1)
+Exportaciones_MM,0.7452,0.9907,15,1.8938,0.01,No estacionaria (I≥1)
+M2_Soles_MM,0.0337,0.9612,15,2.4109,0.01,No estacionaria (I≥1)
