@@ -1,4 +1,4 @@
-# 🇵🇪 Sistema de Alerta Temprana Macroeconómica — Perú (EWS BCRP)
+# Sistema de alerta temprana macroeconómica — Perú (EWS BCRP)
 
 <div align="center">
 
@@ -95,8 +95,8 @@ t_0            t_burnin                  t_T
 ```
 
 En cada punto de re-estimación el sistema:
-1. Ajusta el `StandardScaler` sobre la ventana acumulada hasta $t$
-2. Re-entrena el `IsolationForest` y el `Autoencoder MLP`
+1. Ajusta el `standardscaler` sobre la ventana acumulada hasta $t$
+2. Re-entrena el `isolationforest` y el `autoencoder MLP`
 3. Genera el score del mes siguiente **sin ver datos futuros**
 
 Esto garantiza que las métricas de backtesting sean **genuinamente out-of-sample**.
@@ -113,12 +113,12 @@ Preprocesamiento y alineación temporal
 Ingeniería de features (29 indicadores)
        │
        ▼
-Normalización (StandardScaler expanding)
+Normalización (standardscaler expanding)
        │
        ├─────────────────┐
        ▼                 ▼
-Isolation Forest    Autoencoder MLP
-(Score anomalía)    (MSE reconstrucción)
+Isolation forest    Autoencoder MLP
+(score anomalía)    (MSE reconstrucción)
        │                 │
        └────────┬────────┘
                 ▼
