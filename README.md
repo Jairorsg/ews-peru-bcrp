@@ -472,8 +472,8 @@ Columna | Descripción
 <div align="center">
 
 **Desarrollado por Jairo Roberto Sequeiros Gallegos** <br>
-*Estudiante de Economía & Data Scientist* <br>
-📍 Puno / Arequipa, Perú · 2026
+*Estudiante de ingenieria economica & Data Scientist* <br>
+Puno / Arequipa, Perú · 2026
 
 <br>
 
